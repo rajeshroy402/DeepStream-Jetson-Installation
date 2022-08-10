@@ -20,7 +20,7 @@ sudo pip3 install gdown
 sudo pip3 install boto3 botocore awscli --ignore-installed
 sudo apt install nano -y
 sudo apt update -y
-sudo apt upgrade -y
+#sudo apt upgrade -y
 
 
 echo "########################"
@@ -82,5 +82,5 @@ gdown https://drive.google.com/uc?id=1CfuV4pnEO1zx185gGCYR7G4RkTXErlNW
 sudo apt-get install ./deepstream-6.0_6.0.0-1_arm64.deb
 
 echo "Installation completed!!!"
-
+sudo apt update -y
 deepstream-app --version
