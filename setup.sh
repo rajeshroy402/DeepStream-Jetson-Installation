@@ -19,7 +19,7 @@ sudo pip3 install psutil
 sudo pip3 install gdown
 sudo pip3 install boto3 botocore awscli --ignore-installed
 sudo apt install nano -y
-sudo apt update -y
+#sudo apt update -y
 #sudo apt upgrade -y
 
 
@@ -63,9 +63,9 @@ echo "Creating directory for DeepStream-6.0:"
 sudo mkdir -p /opt/nvidia/deepstream/deepstream-6.0/lib
 sudo cp /usr/local/lib/librdkafka* /opt/nvidia/deepstream/deepstream-6.0/lib
 
-echo "Install latest NVIDIA BSP packages:"
-cd ~/ && gdown https://drive.google.com/uc?id=1I3Rnw_WTB5K5WIusSrNpu9ZPzNHo7oQg
-sudo cp ~/libgstvideo-1.0.so.0.1405.0 /usr/lib/aarch64-linux-gnu/libgstvideo-1.0.so.0.1405.0
+#echo "Install latest NVIDIA BSP packages:"
+#cd ~/ && gdown https://drive.google.com/uc?id=1I3Rnw_WTB5K5WIusSrNpu9ZPzNHo7oQg
+#sudo cp ~/libgstvideo-1.0.so.0.1405.0 /usr/lib/aarch64-linux-gnu/libgstvideo-1.0.so.0.1405.0
 #sudo echo "deb https://repo.download.nvidia.com/jetson/common r32.6 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list
 #sudo echo "deb https://repo.download.nvidia.com/jetson/t194 r32.6 main" >> /etc/apt/sources.list.d/nvidia-l4t-apt-source.list
 
@@ -82,5 +82,5 @@ gdown https://drive.google.com/uc?id=1CfuV4pnEO1zx185gGCYR7G4RkTXErlNW
 sudo apt-get install ./deepstream-6.0_6.0.0-1_arm64.deb
 
 echo "Installation completed!!!"
-sudo apt update -y
+#sudo apt update -y
 deepstream-app --version
