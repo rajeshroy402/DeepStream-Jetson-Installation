@@ -19,8 +19,8 @@ sudo pip3 install psutil
 sudo pip3 install gdown
 sudo pip3 install boto3 botocore awscli --ignore-installed
 sudo apt install nano -y
-#sudo apt update -y
-#sudo apt upgrade -y
+sudo apt update -y
+sudo apt upgrade -y
 
 
 echo "########################"
