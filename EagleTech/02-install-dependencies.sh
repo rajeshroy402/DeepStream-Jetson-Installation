@@ -45,7 +45,7 @@ pip3 install gdown
 
 #Creating a deepstream directory
 
-sudo apt update && sudo apt upgrade
+#sudo apt update && sudo apt upgrade
 
 echo "Creating directory for DeepStream-6.0:"
 sudo mkdir -p /opt/nvidia/deepstream/deepstream-6.0/lib
