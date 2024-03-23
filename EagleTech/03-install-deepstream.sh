@@ -2,6 +2,8 @@
 
 #This is created by Rajesh Roy (rajeshroy402@gmail.com)
 
+echo "This repo is owned and managed by Rajesh Roy <rajeshroy402@gmail.com>"
+
 ############################################################
 
 # Installing DeepStream-6.0

@@ -2,12 +2,15 @@
 
 #This is created by Rajesh Roy (rajeshroy402@gmail.com)
 
+echo "This repo is owned and managed by Rajesh Roy <rajeshroy402@gmail.com>"
+
 ############################################################
 
 sudo apt update -y
 
 sudo pip3 install gdown
 sudo apt install nano -y
+source ~/.bashrc
 
 
 echo "########################"
