@@ -80,7 +80,8 @@ sudo cp /usr/local/lib/librdkafka* /opt/nvidia/deepstream/deepstream-6.0/lib
 # Installing DeepStream-6.0
 echo "Installing DeepStream-6.0:"
 source ~/.bashrc
-gdown https://drive.google.com/uc?id=1CfuV4pnEO1zx185gGCYR7G4RkTXErlNW
+#gdown https://drive.google.com/uc?id=1CfuV4pnEO1zx185gGCYR7G4RkTXErlNW
+sudo gdown 1RnLnqyooOM9CU7KA8BJ7_uteARUzsJJG
 sudo apt-get install ./deepstream-6.0_6.0.0-1_arm64.deb
 
 echo "Installation completed!!!"
